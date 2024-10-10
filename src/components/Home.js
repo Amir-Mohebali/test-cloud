@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import tv from '../assets/tv04_1.jpg'
 import './home.css' 
 
 const Home = () => {
@@ -31,6 +32,8 @@ const Home = () => {
           : <h3>{error}</h3>
         }
       </div>
+      <h2>thank you for your trust</h2>
+      <img src={tv} />
     </>
   )
 }
